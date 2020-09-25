@@ -7,6 +7,7 @@ export class Counter extends Component {
     return (
       <View style={styles.mainView}>
         <Text style={styles.h1}>{title}</Text>
+        <Text style={styles.h1}>"Sonar Cloud"</Text>
       </View>
     );
   }
